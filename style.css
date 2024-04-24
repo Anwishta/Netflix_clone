@@ -217,16 +217,23 @@ body{
     margin-bottom: 40px;
 }
 .footer{
-    height: 60vh;
-    background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 50px;
-    margin-left: 60px;
+    margin: 20px auto;
+    color: white;;
+}
+#footer{
+    color: white;
+    
+}
+footer{
+    padding: auto;
+    margin: 50px;
 }
 .footer-item{
     display: flex;
     flex-direction: column;
+    gap: 15px;
 
 }
 .footer-item a{
