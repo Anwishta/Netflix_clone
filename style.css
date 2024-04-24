@@ -164,14 +164,14 @@ body{
     position: relative;
 }
 .faq{
-    height: fit-content;
+    height: 100vh;
 }
 .box{
     position: relative;
     padding: 20px;
     margin: 5px;
     top: 50px;
-    background-color: rgba(128, 128, 128, 0.35);
+    background-color: #2d2d2d;
     height: 40px;
     width: 75%;
     display: flex;
@@ -184,13 +184,6 @@ body{
 }
 .box:hover{
     background-color: rgba(128, 128, 128, 0.5);
-}
-.faq .input{
-    position: relative;
-    bottom: -60px;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
 }
 /* email address */
 .email{
@@ -213,13 +206,30 @@ body{
     font-size: xx-large;
     font-weight: bolder;
 }
-.fa-xmark{
-    position: absolute;
-    right: 20px;
-    top: 25px;
-}
 .hid{
     display: none;
     overflow: hidden;
     height: fit-content;
+}
+.input2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.footer{
+    height: 60vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-item a{
+    color: white;
+    cursor: pointer;
 }
